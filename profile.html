@@ -10,9 +10,17 @@
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.css">    
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+<style>  
+    .fab{
+      font-size: 30px;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+</style>
 </head>
   <body >
       <nav class="navbar navbar-expand-md navbar-dark  bg-navy">
@@ -112,7 +120,7 @@
           <span>
             <i class="fa fa-star-fill"></i>
           </span>
-          <img src="kampus.jpg" class="w-100 rounded-sm" alt="">
+          <img src="assets/img/kampus.jpg" class="w-100 rounded-sm" alt="">
           <h1 class="my-2">Profil UMKT </h1>
           <br>  
           <p>Muhammadiyah University of East Kalimantan (UMKT) is the result of merging STIKES Muhammadiyah STIE Muhammadiyah Samarinda and Samarinda with additions 10 new courses.UMKT has two main campus with an area of ​​15Ha. Campus 1 UMKT located in Complex Muhammadiyah Universities, Jl. Ir. H. Juanda No.. 15 and Campus 2 UMKT located at Jl. Pelita Complex Charm Mahakam. UMKT supported education in a very adequate learning facilities, ranging from classroom representative, a complete laboratory, and information technology-based library.</p>
@@ -125,70 +133,87 @@
       </div>
     </div>
   </section>
-   <section class="mt-5">
+  <section>
     <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">Patner umkt</h2>
-    </div>
-    <div class="row ">
-      <div class="col-md-6 mt-5 ">
-        <div class="shadow-lg p-2 mb-5 bg-white rounded p-2 h-100">
-          <span>
-            <i class="fa fa-star-fill"></i>
-          </span>
-          <h5 >Aipnema samarinda </h5>
-          <img src="patner1.png" class="w-100 rounded-sm" alt="">
-        </div>                  
+      <div class="">
+        <h2 class="text-uppercase">Partner umkt</h2>
       </div>
-      <div class="col-md-6 mt-5 ">
-          <div class="shadow-lg p-2 mb-5 bg-white rounded p-2 h-100">
-            <span>
-              <i class="fa fa-star-fill"></i>
-            </span>
-            <h5 >Universitas muhammadiyah surakarta</h5>
-            <img src="patner2.jpg" class="w-100 rounded-sm" alt="">
-            
-          </div>
-      </div>
-  </div>
+      <div class="row">
+        <div class="col-md-6 py-3">
+          <h5 class="ml-5">Aipnema Samarinda</h5>
+          <img src="assets/img/patner1.png" class="w-50 rounded-sm ml-5" alt="">
+        </div>
+        <div class="col col-md-6 py-3">
+          <h5 >Universitas Muhammadiyah surakarta</h5>
+          <img src="assets/img/patner2.jpg" class="w-50 rounded-sm ml-5" alt="">
+        </div>
     </div>
   </section>
-  <footer class="site-footer" role="content-info" >
-        <div class="container">
-             <div class="shadow-lg p-2 mb-5 bg-black rounded p-2 ">
-            <div class="footer-content">
-                <div class="items">
-                    <a href="#" class="logo">UMKT social</a>  
-                    <div class="social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-youtube-play"></i></a>
-                        <a href="#"><i class="fa fa-github"></i></a>
-                    </div>
-                </div>
 
-                <div class="items">
-                    <h3>Quick link</h3>
-                <ul>
-                    <li><a href="#">vision mission UMKT</a></li>
-                    <li><a href="#">Why choose UMKT?</a></li>
-                </ul>
-                </div>
-                <div class="items">
-                    <h3>Campus 1</h3>
-                    <ul>
-                        <li><a href="#">Jl. Ir. H. Juanda No. 15 Samarinda</a></li>
-                        <p>
-Phone. 0541-748511 / 0541-6524168
-WhatsApp 0822 531 79397</p>
-                    </ul>
-                </div>
+<!-- Footer -->
+<footer class="bg-navy text-center text-light mt-5">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">UMKT Sosial Media</h5>
+        <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-github"></i></a>
+        <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+      </div>
+      <!--Grid column-->
 
-            </div>
-            <hr>
-            <p class="end">Copyright © 2021 Muhammadiyah University of East Kalimantan. All Rights Reserved.</p>
-        </div>
-    </footer>
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">QUICK LINK</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-light" >Visi Misi UMKT</a>
+          </li>
+          <li>
+            <a href="#!" class="text-light" >Kenapa Memilih UMKT</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Kampus 1 UMKT</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-light" >Jl. Ir. H. Juanda No 15 Samarinda</a>
+          </li>
+          <li>
+            <a href="#!" class="text-light" >Telp. 0541-748511 / 0541-6524168</a>
+          </li>
+          <li>
+            <a href="#!" class="text-light">WhatsApp 0822 531 79397</a>
+          </li>
+          <li>
+            <a href="#!" class="text-light">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 bg-navy" >
+    Copyright © 2021 Muhammadiyah University of East Kalimantan. All Rights Reserved.
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <style type="text/css">
         @import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 *{
