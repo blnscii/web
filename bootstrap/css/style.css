@@ -1,0 +1,27 @@
+.display-6{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 73vh;
+    text-shadow: 2px 2px 5px #474f46 ;
+    font-family: "MS Gothic", monospace;
+    font-weight: bold;
+}
+.jumbotron-fluid{
+    margin-bottom: 80px;
+    background-color: #4D4646;
+    
+}
+.col {
+    font-family: monospace;
+    font-weight: bold;
+}
+#text {
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.fab{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
